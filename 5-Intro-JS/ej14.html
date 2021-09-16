@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let metros = parseFloat(
+        window.prompt("Introduce la distancia en metros:")
+      );
+      let horas = parseInt(window.prompt("Introduce las horas:"));
+      let minutos = parseInt(window.prompt("Introduce los minutos:"));
+      let segundos = parseInt(window.prompt("Introduce los segundos:"));
+
+      let kilometros = metros / 1000;
+      let segundosFinal = horas * 3600 + minutos * 60 + segundos;
+      let horasFinal = segundos / 3600 + minutos / 60 + horas;
+
+      window.alert(`La velocidad ha sido de ${metros / segundosFinal} m/s`);
+      window.alert(`La velodiad ha sido de ${kilometros / horasFinal} km/s`);
+    </script>
+  </body>
+</html>
