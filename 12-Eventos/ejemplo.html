@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="nombre" placeholder="Nombre:" />
+      <input type="text" id="apellido" placeholder="Apellidos:" />
+      <input type="text" id="edad" placeholder="Edad:" />
+      <input type="text" id="ciudad" placeholder="Ciudad:" />
+      <button onclick="enviar()">Enviar</button>
+      <button onclick="recoger()">Recoger</button>
+    </form>
+
+    <script>
+      let num1;
+
+      let patata = window.prompt("escribe algo");
+
+      console.log(patata);
+
+      let usuario = {};
+
+      function enviar() {
+        usuario.nombre = document.getElementById("nombre").value;
+        usuario.apellido = document.getElementById("apellido").value;
+        usuario.edad = document.getElementById("edad").value;
+        usuario.ciudad = document.getElementById("ciudad").value;
+
+        console.log(usuario);
+      }
+
+      function recoger() {
+        num1 = document.getElementById("nombre").value;
+        imprimir();
+      }
+
+      function imprimir() {
+        console.log("contendio:" + num1);
+      }
+    </script>
+  </body>
+</html>

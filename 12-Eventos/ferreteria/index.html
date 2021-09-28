@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferretería Mazarredo</title>
+    <style>
+      header {
+        display: flex;
+      }
+      main {
+      }
+      #productos img {
+        width: 50px;
+      }
+      #productos {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      #productos div {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .productoCesta {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./iconos/Copia de logo.svg" style="width: 50px" ; />
+      <h1>Ferreteria Mazarredo</h1>
+    </header>
+    <main>
+      <div id="cesta">
+        <div id="cestaProductos"></div>
+      </div>
+      <div id="productos">
+        <div>
+          <h3>Brocha</h3>
+          <img src="iconos/Copia de brocha.svg" alt="broca" />
+          <h6>1.25€</h6>
+          <button onclick="modificaProducto('brochas', '+')">+</button>
+          <button onclick="modificaProducto('brochas', '-')">-</button>
+        </div>
+        <div>
+          <h3>Llave</h3>
+          <img src="iconos/Copia de llave.svg" alt="llave" />
+          <h6>5.50€</h6>
+
+          <button onclick="modificaProducto('llaves', '+')">+</button>
+          <button onclick="modificaProducto('llaves', '-')">-</button>
+        </div>
+        <div>
+          <h3>Martillo</h3>
+          <img src="./iconos/Copia de martillo.svg" alt="martillo" />
+          <h6>10€</h6>
+
+          <button onclick="modificaProducto('martillos', '+')">+</button>
+          <button onclick="modificaProducto('martillos', '-')">-</button>
+        </div>
+        <div>
+          <h3>Tronco</h3>
+          <img src="iconos/Copia de tronco.svg" alt="tronco" />
+          <h6>3.0€</h6>
+
+          <button onclick="modificaProducto('troncos', '+')">+</button>
+          <button onclick="modificaProducto('troncos', '-')">-</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Ferretería Mazarredo since 2001. Todos los derechos reservados.</p>
+    </footer>
+    <script src="./ferreteria.js"></script>
+  </body>
+</html>
