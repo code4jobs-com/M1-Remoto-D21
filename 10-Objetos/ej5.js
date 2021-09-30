@@ -317,29 +317,278 @@ let fechaNacimiento = {
   },
 };
 
-let superNombre = "";
-let nombre = window
+let frase = "";
+
+let letraN = window
   .prompt("Introduce tu nombre:")
   .toLowerCase()
   .substring(0, 1);
-let apellido = window.prompt("Introduce tu primer apellido:").toLowerCase();
-apellido = apellido.substring(apellido.length - 1);
+let letraA = window.prompt("Introduce tu primer apellido:").toLowerCase();
+letraA = letraA.substring(letraA.length - 1);
+
 let sexo = parseInt(
   window.prompt(`Introduce tu sexo:
  1 - Femenino
  2 - Masculino`)
 );
-let fecha = window.prompt("Introduce tu fecha de nacimiento (DD-MM-AAAA):");
-fecha = parseInt(fecha.substring(fecha.length - 1));
 
-if (nombre === letraNombre.a.letra) {
+let numeroFecha = window.prompt(
+  "Introduce tu fecha de nacimiento (DD-MM-AAAA):"
+);
+numeroFecha = parseInt(numeroFecha.substring(numeroFecha.length - 1));
+
+if (letraN === letraNombre.a.letra) {
   sexo === 1
-    ? (superNombre += letraNombre.a.femenino)
-    : (superNombre += letraNombre.a.masculino);
-}else if(nombre === letraNombre.b.letra{
+    ? (frase += `${letraNombre.a.femenino} `)
+    : (frase += `${letraNombre.a.masculino} `);
+} else if (letraN === letraNombre.b.letra) {
   sexo === 1
-    ? (superNombre += letraNombre.b.femenino)
-    : (superNombre += letraNombre.b.masculino);
+    ? (frase += `${letraNombre.b.femenino} `)
+    : (frase += `${letraNombre.b.masculino} `);
+} else if (letraN === letraNombre.c.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.c.femenino} `)
+    : (frase += `${letraNombre.c.masculino} `);
+} else if (letraN === letraNombre.d.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.d.femenino} `)
+    : (frase += `${letraNombre.d.masculino} `);
+} else if (letraN === letraNombre.e.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.be.femenino} `)
+    : (frase += `${letraNombre.e.masculino} `);
+} else if (letraN === letraNombre.f.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.f.femenino} `)
+    : (frase += `${letraNombre.f.masculino} `);
+} else if (letraN === letraNombre.g.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.g.femenino} `)
+    : (frase += `${letraNombre.g.masculino} `);
+} else if (letraN === letraNombre.h.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.h.femenino} `)
+    : (frase += `${letraNombre.h.masculino} `);
+} else if (letraN === letraNombre.i.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.i.femenino} `)
+    : (frase += `${letraNombre.i.masculino} `);
+} else if (letraN === letraNombre.j.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.j.femenino} `)
+    : (frase += `${letraNombre.j.masculino} `);
+} else if (letraN === letraNombre.k.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.k.femenino} `)
+    : (frase += `${letraNombre.k.masculino} `);
+} else if (letraN === letraNombre.l.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.l.femenino} `)
+    : (frase += `${letraNombre.l.masculino} `);
+} else if (letraN === letraNombre.m.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.m.femenino} `)
+    : (frase += `${letraNombre.m.masculino} `);
+} else if (letraN === letraNombre.n.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.n.femenino} `)
+    : (frase += `${letraNombre.n.masculino} `);
+} else if (letraN === letraNombre.o.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.o.femenino} `)
+    : (frase += `${letraNombre.o.masculino} `);
+} else if (letraN === letraNombre.p.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.p.femenino} `)
+    : (frase += `${letraNombre.p.masculino} `);
+} else if (letraN === letraNombre.q.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.q.femenino} `)
+    : (frase += `${letraNombre.q.masculino} `);
+} else if (letraN === letraNombre.r.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.r.femenino} `)
+    : (frase += `${letraNombre.r.masculino} `);
+} else if (letraN === letraNombre.s.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.s.femenino} `)
+    : (frase += `${letraNombre.s.masculino} `);
+} else if (letraN === letraNombre.t.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.t.femenino} `)
+    : (frase += `${letraNombre.t.masculino} `);
+} else if (letraN === letraNombre.u.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.u.femenino} `)
+    : (frase += `${letraNombre.u.masculino} `);
+} else if (letraN === letraNombre.v.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.v.femenino} `)
+    : (frase += `${letraNombre.v.masculino} `);
+} else if (letraN === letraNombre.w.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.w.femenino} `)
+    : (frase += `${letraNombre.w.masculino} `);
+} else if (letraN === letraNombre.x.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.x.femenino} `)
+    : (frase += `${letraNombre.x.masculino} `);
+} else if (letraN === letraNombre.y.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.y.femenino} `)
+    : (frase += `${letraNombre.y.masculino} `);
+} else if (letraN === letraNombre.z.letra) {
+  sexo === 1
+    ? (frase += `${letraNombre.z.femenino} `)
+    : (frase += `${letraNombre.z.masculino} `);
 }
 
-//y sigue
+if (letraA === letraApellido.a.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.a.femenino} `)
+    : (frase += `${letraApellido.a.masculino} `);
+} else if (letraA === letraApellido.b.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.b.femenino} `)
+    : (frase += `${letraApellido.b.masculino} `);
+} else if (letraA === letraApellido.c.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.c.femenino} `)
+    : (frase += `${letraApellido.c.masculino} `);
+} else if (letraA === letraApellido.d.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.d.femenino} `)
+    : (frase += `${letraApellido.d.masculino} `);
+} else if (letraA === letraApellido.e.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.e.femenino} `)
+    : (frase += `${letraApellido.e.masculino} `);
+} else if (letraA === letraApellido.f.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.f.femenino} `)
+    : (frase += `${letraApellido.f.masculino} `);
+} else if (letraA === letraApellido.g.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.g.femenino} `)
+    : (frase += `${letraApellido.g.masculino} `);
+} else if (letraA === letraApellido.h.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.h.femenino} `)
+    : (frase += `${letraApellido.h.masculino} `);
+} else if (letraA === letraApellido.i.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.i.femenino} `)
+    : (frase += `${letraApellido.i.masculino} `);
+} else if (letraA === letraApellido.j.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.j.femenino} `)
+    : (frase += `${letraApellido.j.masculino} `);
+} else if (letraA === letraApellido.k.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.k.femenino} `)
+    : (frase += `${letraApellido.k.masculino} `);
+} else if (letraA === letraApellido.l.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.l.femenino} `)
+    : (frase += `${letraApellido.l.masculino} `);
+} else if (letraA === letraApellido.m.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.m.femenino} `)
+    : (frase += `${letraApellido.m.masculino} `);
+} else if (letraA === letraApellido.n.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.n.femenino} `)
+    : (frase += `${letraApellido.n.masculino} `);
+} else if (letraA === letraApellido.o.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.o.femenino} `)
+    : (frase += `${letraApellido.o.masculino} `);
+} else if (letraA === letraApellido.p.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.p.femenino} `)
+    : (frase += `${letraApellido.p.masculino} `);
+} else if (letraA === letraApellido.q.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.q.femenino} `)
+    : (frase += `${letraApellido.q.masculino} `);
+} else if (letraA === letraApellido.r.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.r.femenino} `)
+    : (frase += `${letraApellido.r.masculino} `);
+} else if (letraA === letraApellido.s.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.s.femenino} `)
+    : (frase += `${letraApellido.s.masculino} `);
+} else if (letraA === letraApellido.t.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.t.femenino} `)
+    : (frase += `${letraApellido.t.masculino} `);
+} else if (letraA === letraApellido.u.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.u.femenino} `)
+    : (frase += `${letraApellido.u.masculino} `);
+} else if (letraA === letraApellido.v.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.v.femenino} `)
+    : (frase += `${letraApellido.v.masculino} `);
+} else if (letraA === letraApellido.w.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.w.femenino} `)
+    : (frase += `${letraApellido.w.masculino} `);
+} else if (letraA === letraApellido.x.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.x.femenino} `)
+    : (frase += `${letraApellido.x.masculino} `);
+} else if (letraA === letraApellido.y.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.y.femenino} `)
+    : (frase += `${letraApellido.y.masculino} `);
+} else if (letraA === letraApellido.z.letra) {
+  sexo === 1
+    ? (frase += `${letraApellido.z.femenino} `)
+    : (frase += `${letraApellido.z.masculino} `);
+}
+
+if (numeroFecha === fechaNacimiento.num0.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num0.femenino} `)
+    : (frase += `${fechaNacimiento.num0.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num1.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num1.femenino} `)
+    : (frase += `${fechaNacimiento.num1.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num2.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num2.femenino} `)
+    : (frase += `${fechaNacimiento.num2.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num3.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num3.femenino} `)
+    : (frase += `${fechaNacimiento.num3.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num4.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num4.femenino} `)
+    : (frase += `${fechaNacimiento.num4.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num5.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num5.femenino} `)
+    : (frase += `${fechaNacimiento.num5.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num6.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num6.femenino} `)
+    : (frase += `${fechaNacimiento.num6.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num7.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num7.femenino} `)
+    : (frase += `${fechaNacimiento.num7.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num8.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num8.femenino} `)
+    : (frase += `${fechaNacimiento.num8.masculino} `);
+} else if (numeroFecha === fechaNacimiento.num9.numero) {
+  sexo === 1
+    ? (frase += `${fechaNacimiento.num9.femenino} `)
+    : (frase += `${fechaNacimiento.num9.masculino} `);
+}
+
+console.log(frase);
