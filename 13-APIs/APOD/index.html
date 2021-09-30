@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="anyo" type="text" placeholder="Año:" />
+    <input id="mes" type="text" placeholder="Mes:" />
+    <input id="dia" type="text" placeholder="Día:" />
+    <button onclick="pedirDatos()">Enviar</button>
+    <div id="resultados"></div>
+    <script>
+      function pedirDatos() {
+        let anyo = document.getElementById("anyo").value;
+        let mes = document.getElementById("mes").value;
+        let dia = document.getElementById("dia").value;
+
+        fetch(
+          `https://api.nasa.gov/planetary/apod?api_key=1Hkk8tGuphjY8eagwLfhwzb7xphCLAU5YBcZxTVf&date=${anyo}-${mes}-${dia}`
+        )
+          .then(function respuesta(res) {
+            return res.json();
+          })
+          .then(function sacaDatos(data) {
+            document.getElementById(
+              "resultados"
+            ).innerHTML = `<h1>${data.title}</h1>`;
+          });
+      }
+    </script>
+  </body>
+</html>

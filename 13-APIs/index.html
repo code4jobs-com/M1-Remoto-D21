@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="patata"></div>
+    <script>
+      let datos;
+
+      fetch(`http://api.icndb.com/jokes/random`)
+        .then(function respuesta(res) {
+          return res.json();
+        })
+        .then(function hacerCosas(data) {
+          document.getElementById(
+            "patata"
+          ).innerHTML = `<p>${data.value.joke}</p>`;
+        });
+
+      console.log("Hola, yo voy primero");
+    </script>
+  </body>
+</html>
